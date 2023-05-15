@@ -9,6 +9,7 @@ jobs:
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
+        node-version: '16'
         username: 'MuttonYung'
         reponame: 'MuttonYung.github.io'
         token: ${{ secrets.GITHUB_TOKEN }}
